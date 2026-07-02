@@ -12,6 +12,7 @@ public class Fibonacci {
 
         // Print the Fibonacci series up to n terms
         System.out.println("Fibonacci Series up to " + n + " terms:");
+        //for loop approach
         for (int i = 0; i < n; i++) {
             System.out.print(a + " ");
             int next = a + b;
